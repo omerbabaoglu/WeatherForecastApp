@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:OpenWeatherMapApiApp.ViewModels"
+             x:Class="OpenWeatherMapApiApp.Views.ForecastPage" Visual="Material">
+    <ContentPage.BindingContext>
+        <vm:ForecastPageVM></vm:ForecastPageVM>
+    </ContentPage.BindingContext>
+
+
+    <ContentPage.Content>
+      
+        <Grid Padding="0">
+            <Grid.RowDefinitions>
+               
+                <RowDefinition Height="*" ></RowDefinition>
+                <RowDefinition Height="2*"></RowDefinition>
+               
+            </Grid.RowDefinitions>
+            
+           
+       
+                <Frame  Padding="0" BorderColor="MediumPurple" Margin="0" Grid.Row="0"  >
+            <StackLayout BackgroundColor="MediumPurple" Grid.Row="0" Visual="Material" Margin="0">
+                    <Entry Placeholder="Şehir ismi giriniz"  Text="{Binding CityEntry, Mode=TwoWay}"   Margin="15" BackgroundColor="Transparent" PlaceholderColor="WhiteSmoke" TextColor="White"></Entry>
+
+                    <Button VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Text="Hava durumunu al" Command="{Binding getforecastcommand}" Visual="Material" Margin="10" CornerRadius="15" BackgroundColor="Transparent" Font="Bold"
+                            TextColor="White"></Button>
+                 </StackLayout>
+                </Frame>
+          
+
+                
+                <StackLayout Grid.Row="1" BackgroundColor="CornflowerBlue" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  Margin="0">
+                    <Label Text="{Binding CityLabel}" Margin="17" FontSize="45" BackgroundColor="Transparent" TextColor="White" HorizontalOptions="Center" ></Label>
+                
+                <Label Text="{Binding TemperatureLabe}" VerticalOptions="Center" HorizontalOptions="Center" FontSize="50" TextColor="White" BackgroundColor="Transparent" ></Label>
+                <Label Text="{Binding Description}"  BackgroundColor="Transparent" FontSize="45" TextColor="White" HorizontalOptions="Center"></Label>
+                    <Image Source="{Binding imgstring}" HeightRequest="100" IsAnimationPlaying="True"></Image>
+                    
+                </StackLayout>
+              
+
+           
+
+
+
+
+
+            </Grid>
+       
+    </ContentPage.Content>
+</ContentPage>

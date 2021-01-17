@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "0VULqANsyDJtNjT4hYhTkbA6Ke3M3VPCzrqdBg2ZCZfyJGRjvBW7JxB1WICNMVAOc8SUgJ59KSs2g3/MbjvmJg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\omer-\\source\\repos\\OpenWeatherMapApiApp\\OpenWeatherMapApiApp.iOS\\OpenWeatherMapApiApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\omer-\\.nuget\\packages\\microsoft.teamfoundationserver.extendedclient\\16.170.0\\microsoft.teamfoundationserver.extendedclient.16.170.0.nupkg.sha512",
+    "C:\\Users\\omer-\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\omer-\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
+    "C:\\Users\\omer-\\.nuget\\packages\\syncfusion.licensing\\18.4.0.34\\syncfusion.licensing.18.4.0.34.nupkg.sha512",
+    "C:\\Users\\omer-\\.nuget\\packages\\syncfusion.xamarin.core\\18.4.0.34\\syncfusion.xamarin.core.18.4.0.34.nupkg.sha512",
+    "C:\\Users\\omer-\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512",
+    "C:\\Users\\omer-\\.nuget\\packages\\xamarin.forms.visual.material\\4.8.0.1451\\xamarin.forms.visual.material.4.8.0.1451.nupkg.sha512",
+    "C:\\Users\\omer-\\.nuget\\packages\\xamarin.ios.materialcomponents\\92.0.0\\xamarin.ios.materialcomponents.92.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
